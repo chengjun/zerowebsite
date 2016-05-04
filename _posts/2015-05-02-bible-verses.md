@@ -3,7 +3,7 @@ layout: post
 title: "精神的家园"
 date: 2015-05-02 17:41
 comments: true
-categories: 
+categories:
 - 生活
 tags:
 - 圣经
@@ -21,13 +21,13 @@ document.write("<iframe src=\"http://www.kingjamesonline.org/inspiring-images-wi
 
 关于圣经，学英文的时候，有一个说法是女生应该读飘，男生读圣经。两本书我都买了，却都没有好好读。或许这就是为什么我英文学不好的原因？
 
-#圣经今句
+# 圣经今句
+
 <script type="text/javascript">
 document.write("<iframe src=\"http://www.kingjamesbibleonline.org/popular-bible-verses-widget.php\" style=\"width: 600px;height: 70px; border: 0px solid #ffffff;\"></iframe>");
 </script>
 
 
-#圣经金句
+# 圣经金句
 
 <IFRAME SRC="http://www.jesusfolk.com/Bible/Verses/1.htm?b1=15&b2=%23000000&b3=Verdana&b4=%23FFFFFF" Name="Bible" SCROLLING="AUTO" HSPACE="0" VSPACE="0" FRAMEBORDER="0" MARGINHEIGHT="5" ALIGN="MIDDLE" MARGINWIDTH="5" WIDTH="600" HEIGHT="100"></IFRAME>
-
