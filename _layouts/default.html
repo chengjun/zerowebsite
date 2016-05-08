@@ -18,8 +18,19 @@
     </script>
     <!--highlight.js End-->
     <!--mathjax start-->
+    <script type="text/x-mathjax-config">
+     MathJax.Hub.Config({
+       tex2jax: {
+         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+         processEscapes: true
+       },
+      TeX: {
+         equationNumbers: { autoNumber: "AMS" }
+      }
+     });
+    </script>
     <script type="text/javascript"
-            src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+                src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
     <!--mathjax end-->
   </head>
@@ -30,7 +41,7 @@
         <h1>{{ page.title }}</h1>
         </header>
         <nav>
-		<!-- Sidebar 
+		<!-- Sidebar
         <h5 id="logo" style="text-align:center;">
         <a href="http://chengjun.github.io" target="_blank">
 			<img src="/cv/images/chengjun.jpg" width="100" class="with_border"/>
@@ -40,10 +51,10 @@
         <span><a title="About me" class="" href="http://chengjun.github.io/about/">about</a></span>
         <span><a title="categories" class="" href="{{ site.url }}/categories/">categories</a></span>
         <span><a title="tags" class="" href="{{ site.url }}/tags/">tags</a></span>
-        
+
         <span><a title="cv" class="" href="http://chengjun.github.io/cv/">cv</a></span>
         <span><a title="links" class="" href="{{ site.url }}/links/">links</a></span>
-        
+
         <span><a title="subscribe by RSS" class="" href="{{ site.url }}/feed/">RSS</a></span>
         -->
         </nav>
@@ -52,8 +63,8 @@
         </article>
 
       </div>
-    
-    <!--	
+
+    <!--
     </div>
     <script type="text/javascript">
       var _gaq = _gaq || [];
