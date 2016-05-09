@@ -3,7 +3,7 @@ layout: post
 title: "Echarts使用简介"
 date: 2015-01-10 10:25
 comments: true
-categories: 
+categories:
 - 教学
 tags:
 - 可视化
@@ -35,7 +35,7 @@ tags:
             					"echarts/chart/map":"js/map"
             				}
             			});
-            			
+
             			//using
             			require(
             				[
@@ -46,7 +46,7 @@ tags:
             					var myChart=ec.init(document.getElementById("main"));  
                                 <!--Input your code here-->					
             					var
-            								
+
                                 <!--Input your code here-->					
             					//loading data
             					myChart.setOption(option);
@@ -57,25 +57,24 @@ tags:
             </html>
 
 
-##弦图
+## 弦图
 http://chengjun.github.io/myecharts/chord.html
 
 <iframe src='http://chengjun.github.io/myecharts/chord.html' scrolling="no" width="600" height = "400"></iframe>
 
-##柱状图
+## 柱状图
 http://chengjun.github.io/myecharts/bar.html
 
 <iframe src='http://chengjun.github.io/myecharts/bar.html' scrolling="no" width="600" height = "400"></iframe>
 
-##地图
+## 地图
 http://chengjun.github.io/myecharts/map9.html
 
 <iframe src='http://chengjun.github.io/myecharts/map9.html' scrolling="no" width="600" height = "400"></iframe>
 
 
-##后记
+## 后记
 发现chrome无法加载，再加入了以下代码后就可以使用了。可惜用了整整一个上午才更正这个问题。
 
 
             <script src="./js/echarts.js" type="text/javascript"></script>
-
