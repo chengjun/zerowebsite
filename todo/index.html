@@ -1,103 +1,106 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>打豆豆</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/92f0b651.main.css">
-        <script src="http://www.parsecdn.com/js/parse-1.2.12.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 10]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-          <h4 class="modal-title">Please edit your task.</h4>
-        </div>
-        <div class="modal-body">
-        <input type="text" class="form-control" id="edit-text" placeholder="I need to...">
-        <div class="modal-message"></div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary save-edit" data-dismiss="modal">Save changes</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
+	<title>dodo</title>
+	<link type='text/css' rel='stylesheet' href='res/dodo.css' />
+	<script type="text/javascript" src="phonegap.js"></script>
+</head>
+<body>
 
-        <div class="container">
-            <div class="header">
-                <img class="manage" src="images/c83a7bd6.clipboard.png">
-                <h3 class="head">Todo List</h3>
+
+<div id="messageboxMask">
+    <div id="messagebox">
+        <div class='content'>
+            <p>MessageBox</p>
+        </div>
+    </div>
+</div>
+
+
+<div id="home">
+    <div id="jqt">
+        <div id="todos" selected="true" class="edgetoedge form">
+            <div class="toolbar">
+                <h1>dodo</h1>
+                <a href="#" class="addtodo button leftButton slideup">添加</a>
+                <a href="#settings" class="button slideup">设置</a>
             </div>
-
-            <div class="form">
-           <div class="text">
-            <div class="todo">
-                <div class="header do-this">
-                   <h1>Do this</h1>
-                   <hr class="line">    
+            <div class="content">
+                <div>
+                    <ul class="edgetoedge todos">
+                    </ul>
                 </div>
-                       
-                <form class="form-inline form-test" role="form">
-                  <div class="form-group input-box">
-                    <label class="sr-only" for="exampleInputEmail2"></label>
-                    <input class="form-control" id="form-input" placeholder="Add a task...">
-                  </div>
-                  <button type="submit" class="btn btn-default add">ADD</button>
-                </form>
-                <div class="message"></div>
-
             </div>
-                <div class="col-md-12 task">
-                   <!--  <span>Tasks:</span> -->
-                    <ul id="task-list"></ul>
-                </div>
-                <div class="col-md-12 check">
-                    <button type="button" href="#myModal" class="edit button grey">Edit</button>
-                    <button type="button" class="completed button purple">Complete</button>
-                    <button type="button" class="delete button red">Delete</button>
-                </div>
-            
-                <div class="complete">
-                    <h1>Did that</h1>
-                    <hr class="line">
-                    <ul id="completed-list"></ul>
-                </div>
-                <!-- end of completed tasks -->
-                </div>
-                <!-- end of text div -->
-            </div> 
-            <!-- end of form div -->           
         </div>
-        <!-- end of container div -->
+        <div id="edit">
+            <form>
+                <div class="toolbar">
+                    <h1>添加待办事项</h1>
+                    <a href="#" class="cancel">返回</a>
+                </div>
+                <div class="content">
+                    <div class="clearfix">
+                        <ul class="rounded">
+                            <li><input type="text" name="todo" placeholder="待办事项名称" /></li>
+                            <li><textarea name="notes" placeholder="描述"></textarea></li>
+                            <li>完成时间 <span class="due_date"></span></li>
+                            <li>高优先级 <span class="toggle"><input name='priority' type="checkbox" value='1' /></span></li>
+                        </ul>
+                        <div style="height:130px">
+                            <a href="#" class="whiteButton" style="margin: 10px">保存</a>
+                            <a href="#" class="redButton" style="margin: 10px">删除</a>
+                            <input type='hidden' name='guid' value='' />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="settings">
+            <div class="toolbar">
+                <h1>设置</h1>
+                <a href="#" class="button goback">完成</a>
+            </div>
+            <div class="content">
+                <div>
+                    <ul class="rounded">
+                        <li><a id="cleanup-todos" href="#">清除已经完成的事项</a></li>
+                        <li>默认完成时间 <span class="due_date">
+                            <select id="default_due_days">
+                                <option value="0">今天</option>
+                                <option value="1">明天</option>
+                                <option value="6">一周内</option>
+                                <option value="29">一月内</option>
+                            </select>
+                        </span></li>
+                    </ul>
+                    <h2></h2>
+                    <ul class="rounded">
+                        <li>版本<small>dodo 1.0.1</small></li>
+                        <li>网站<small>TickPlant.com/dodo</small></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-        <script src="scripts/1137e1f5.vendor.js"></script>
+<script type='text/javascript' src='lib/jquery-1.4.2.min.js'></script>
+<script type="text/javascript" src="lib/iscroll.js"></script>
+<script type='text/javascript' src='lib/jqtouch.js'></script>
+<script type='text/javascript' src='lib/dodomanager.js'></script>
+<script type='text/javascript' src='lib/messagebox.js'></script>
+<script type='text/javascript' src='lib/datepicker.js'></script>
+<script type='text/javascript' src='lib/spinningwheel.js'></script>
+<script type='text/javascript' src='lib/decorateselects.js'></script>
+<script type='text/javascript' src='lib/app.js'></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+<script>
+document.body.addEventListener('touchmove', function(e) {
+    e.preventDefault();
+});
+</script>
 
-        <script src="scripts/2d3401b0.main.js"></script>
-
-        <script src="scripts/3431b5a9.coffee.js"></script>
-
-        <script src="scripts/491c175a.plugins.js"></script>
 </body>
 </html>
