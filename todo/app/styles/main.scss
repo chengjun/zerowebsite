@@ -1,0 +1,309 @@
+$icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+
+@import 'sass-bootstrap/lib/bootstrap';
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* Space out content a bit */
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 0 !important;
+}
+
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+    padding-top: 19px;
+    color: #777;
+    border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 850px;
+    }
+
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Space out the masthead */
+    .header {
+        margin-bottom: 30px;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+
+    .button {
+        font-size: 12px;
+        height: 70px;
+        width: 70px;
+    }
+}
+
+/*alison's styles*/
+
+.head, img.manage, .completed, .delete, .edit {
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: #ffffff 1px -1px;
+}
+
+.completed, .delete, .edit {
+    width: 120px;
+    margin-top: 15px;
+}
+
+.head {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    color: #333232;
+}
+
+img.manage {
+    width: 35px;
+}
+
+.form {
+    margin-left: 70px;
+    position: relative;
+    padding-bottom: 20px;
+    background: #EBEAE6;;
+    border-radius: 10px;
+    width: 80%;
+    border: 2px solid #DADADA;
+    box-shadow: 1px 0px 2px #888888; 
+}   
+
+.text {
+
+    h1 {
+        font-family: 'Josefin Sans', sans-serif; 
+        padding-top: 10px;
+    }
+
+    h4 {
+        font-family: 'Volkhov', Helvetica, serif;
+    }
+
+    .todo {
+        text-align: center;
+    }
+
+    .input-box {
+        width: 50%;
+    }
+
+    .task {
+        height: 200px;
+        font-family: 'Volkhov', sans-serif; 
+        font-size: 15px;
+
+        span {
+        font-family: 'Josefin Sans', sans-serif; 
+        font-size: 20px;
+        }
+    }
+
+    .check {
+        margin-left: 160px;
+        border-radius: 30px;
+        width: 50%;
+        background: #E2E2E2;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Volkhov', sans-serif; 
+    font-size: 15px;
+}
+
+body { 
+  background: #496599;
+}
+
+.header {
+
+    h1 {
+        display: inline-block;
+        margin-right: 12px;
+        margin-left: 12px;
+
+    }
+    .purple {
+        padding-bottom: 10px;
+        width: 50px;
+        display: inline-block;
+}
+}
+
+.glyphicon {
+    padding-right: 5px;
+}
+
+.complete {
+    padding-bottom: 20px;
+}
+
+.do-this {
+    margin: 0px 0px;
+    border-radius: 10px 10px 0px 0px;
+    color: #4E4C4C;
+
+}
+
+hr.line {
+        width: 80%;
+        margin-top: 5px;
+        margin-bottom: 30px;
+        border: 0;
+        border-top: 2px solid #D2C9D6;
+}
+
+.highlight {
+    background: #9C9FA3;
+}
+
+.message p {
+    text-align: left;
+    margin-left: 140px;
+    padding-top: 5px;
+    color: #4E4C4C;
+    font-family: 'Volkhov', sans-serif;
+}
+
+.button {
+    font-size: 15px;
+    font-family: 'Volkhov', sans-serif;
+    height: 90px;
+    width: 90px;
+    border-radius: 90px;
+}
+
+.button:active {
+    position: relative;
+    top: 1px;
+}
+
+.red {
+    color: white;
+    border: rgb(189, 38, 38) 3px solid;
+    background: linear-gradient(to bottom, #ff3019 19%,#cf0404 71%); /* W3C */
+    }
+
+.red:hover {
+    background: linear-gradient(to bottom, #ff3019 100%,#cf0404 100%); /* W3C */;
+}
+
+.purple {
+    color: white;
+    border: rgb(146, 5, 146) 3px solid;
+    background: linear-gradient(to bottom, #cb60b3 0%,#ad1283 50%,#de47ac 100%); /* W3C */
+}
+
+.purple:hover {
+    background: linear-gradient(to bottom, #cb60b3 4%,#de47ac 62%); /* W3C */}
+
+.grey {
+    color: #666666;
+    border: #BDBCBC 3px solid;
+    background: linear-gradient(to bottom, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%); /* W3C */}
+
+.grey:hover{
+    background: linear-gradient(to bottom, #fcfff4 0%,#dfe5d7 40%); /* W3C */
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover {
+    background-color: rgb(131, 131, 131);   
+    color: white;
+}
+
+.nav a {
+    color: rgb(131, 131, 131);
+    font-family: 'Volkhov', sans-serif;
+}
+
+.modal-title {
+    text-align: center;
+    font-family: 'Volkhov', sans-serif;
+}
+
+.add {
+    font-family: 'Volkhov', sans-serif;
+}
+
+.modal-dialog {
+    position: relative;
+    left: 0%;
+    top: 115px;
+    width: 500px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
