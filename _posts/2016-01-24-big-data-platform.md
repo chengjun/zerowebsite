@@ -9,7 +9,7 @@ tags:
 - 大数据
 ---
 
-![](../img/cube.png)
+![](./img/cube.png)
 
 ```python
 for i in range(10):
