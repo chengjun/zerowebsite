@@ -13,16 +13,6 @@ tags:
 
 
 
-```python
-for i in range(10):
-    print i
-```
-
-
-$$
-E = MC^2
-$$
-
 
 # 数据产研
 
