@@ -95,10 +95,10 @@
   }
 
   ul.projects li{
-      font-weight: bold; 
+      font-weight: bold;
       font-size:18px;
   }
-  
+
   .resize {
     position: fixed;
     bottom: 0;
@@ -109,8 +109,7 @@
 
 
   img {
-    max-width: 100%;
-    height: auto; }
+    max-width: 100%; }
 
   .gist-meta { display: none !important;}
 
@@ -197,5 +196,3 @@
   @media only screen and (max-width: 959px) and (max-device-width: 1000px) {
     .resize { display: none; }
   }
-
-
