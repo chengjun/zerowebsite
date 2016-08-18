@@ -9,6 +9,9 @@ tags:
 - teaching
 ---
 
+# 学生使用github上传作业问题
+https://github.com/liruonanfdu/cjc2016/tree/gh-pages/homework/liruonan
+
 # 录制公开课视频
 
 Quicktime可以比较方便地录制屏幕，因而是录制公开课的好方法。但录制屏幕的时候，我们往往还希望能够看到讲课的人，所以还需要录制视频。
