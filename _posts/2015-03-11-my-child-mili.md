@@ -3,7 +3,7 @@ layout: post
 title: "我的女儿米粒"
 date: 2015-03-11 11:05
 comments: true
-categories: 
+categories:
 - 家庭
 tags:
 - 女儿
@@ -11,52 +11,78 @@ tags:
 
 # 米粒出生多少天了？
 
-<html> 
-<head> 
-<meta charset="utf-8"> 
- 
-</head> 
- 
-<body> 
- 
-<DIV id="CountMsg" class="HotDate"> 
-<span id="t_d">00天</span> 
-<span id="t_h">00时</span> 
-<span id="t_m">00分</span> 
-<span id="t_s">00秒</span> 
-</DIV> 
-<script type="text/javascript"> 
-function getRTime(){ 
-var EndTime= new Date('2015/03/11 11:05:00'); //截止时间 
-var NowTime = new Date(); 
-var t = NowTime.getTime()-EndTime.getTime(); 
-/*var d=Math.floor(t/1000/60/60/24); 
-t-=d*(1000*60*60*24); 
-var h=Math.floor(t/1000/60/60); 
-t-=h*60*60*1000; 
-var m=Math.floor(t/1000/60); 
-t-=m*60*1000; 
+<html>
+<head>
+<meta charset="utf-8">
+
+</head>
+
+<body>
+
+<DIV id="CountMsg" class="HotDate">
+<span id="t_d">00天</span>
+<span id="t_h">00时</span>
+<span id="t_m">00分</span>
+<span id="t_s">00秒</span>
+</DIV>
+<script type="text/javascript">
+function getRTime(){
+var EndTime= new Date('2015/03/11 11:05:00'); //截止时间
+var NowTime = new Date();
+var t = NowTime.getTime()-EndTime.getTime();
+/*var d=Math.floor(t/1000/60/60/24);
+t-=d*(1000*60*60*24);
+var h=Math.floor(t/1000/60/60);
+t-=h*60*60*1000;
+var m=Math.floor(t/1000/60);
+t-=m*60*1000;
 var s=Math.floor(t/1000);*/
- 
-var d=Math.floor(t/1000/60/60/24); 
-var h=Math.floor(t/1000/60/60%24); 
-var m=Math.floor(t/1000/60%60); 
-var s=Math.floor(t/1000%60); 
- 
-document.getElementById("t_d").innerHTML = d + "天"; 
-document.getElementById("t_h").innerHTML = h + "时"; 
-document.getElementById("t_m").innerHTML = m + "分"; 
-document.getElementById("t_s").innerHTML = s + "秒"; 
-} 
-setInterval(getRTime,1000); 
-</script> 
-</body> 
+
+var d=Math.floor(t/1000/60/60/24);
+var h=Math.floor(t/1000/60/60%24);
+var m=Math.floor(t/1000/60%60);
+var s=Math.floor(t/1000%60);
+
+document.getElementById("t_d").innerHTML = d + "天";
+document.getElementById("t_h").innerHTML = h + "时";
+document.getElementById("t_m").innerHTML = m + "分";
+document.getElementById("t_s").innerHTML = s + "秒";
+}
+setInterval(getRTime,1000);
+</script>
+</body>
 </html>
 
 
 ![](https://gallery.mailchimp.com/c007b6835f6475cf470f6e0ef/images/a4918492-d8c8-4a18-9e1f-93716e8dc526.gif)
 
-故事从2015年3月11日早上十一点五分开始讲起，在这一刻我的女儿在东南大学附属中大医院降生了。我给女儿取名叫米粒，她的到来令我和妻子万分高兴。然而就在一个多月前，我和妻子还在为异地生产的问题焦头烂额。
+# 米粒时代
+
+《梅花》 唐 崔道融
+
+- 数萼初含雪，孤标画本难。
+- 香中别有韵，清极不**知寒**。
+- 横笛和愁听，斜枝倚病看。
+- 朔风如解意，容易莫摧残。
+
+《淮阴夜宿二首》 唐 孙逖
+
+- 水国南无畔，扁舟北未期。乡情淮上失，归梦郢中疑。
+- 木落**知寒**近，山长见日迟。客行心绪乱，不及洛阳时。
+- 永夕卧烟塘，萧条天一方。秋风淮水落，寒夜楚歌长。
+- 宿莽非中土，鲈鱼岂我乡。孤舟行已倦，南越尚茫茫。
+
+《红线毯》 唐 白居易
+- 红线毯，择茧缲丝清水煮，拣丝练线红蓝染。
+- 染为红线红于蓝，织作披香殿上毯。披香殿广十丈馀，
+- 红线织成可殿铺。彩丝茸茸香拂拂，线软花虚不胜物。
+- 美人蹋上歌舞来，罗袜绣鞋随步没。太原毯涩毳缕硬，
+- 蜀都褥薄锦花冷，不如此毯温且柔，年年十月来宣州。
+- 宣城太守加样织，自谓为臣能竭力。百夫同担进宫中，
+- 线厚丝多卷不得。宣城太守知不知，一丈毯，千两丝。
+- 地不**知寒**人要暖，少夺人衣作地衣。
+
+故事从2015年3月11日早上十一点五分开始讲起，在这一刻我的女儿在东南大学附属中大医院降生了。我给女儿取名叫米粒，大名叫知寒，希望她可以“知寒问暖”。她的到来令我和妻子万分高兴。然而就在一个多月前，我和妻子还在为异地生产的问题焦头烂额。
 
 2014年我来南京工作，然而短期之内无法解决户口问题。而妻子在湖南生产则面临产后坐月子我无法陪护的问题，不得已我们只能选择在南京生孩子。然而做出这选择并不容易，因为我和妻子对于南京并不熟悉，在这里我们的朋友也不多，也许更为严重的问题是我们对于异地生产所存在的问题缺乏清晰的认识。断断续续地，我咨询了单位和一些医院，然而得到的回复并不乐观。正当我不知所措的时候，我听别人介绍了中大医院的产科门诊。怀着忐忑的心情，我拨通了中大医院产科的电话。顾晓霞护士长耐心地回答了我的各种问题，提醒我办理各种必要的手续，并指导我的妻子进行产前准备。一个月后，孩子出生了，然而我和妻子对于如何照顾孩子却并不擅长；幸亏有值班护士在，她们充满耐心得进行指导、不断鼓励，从各个方面照顾着产妇和孩子。在很多微小的细节当中，我感受到了医护人员对于工作的尽职尽责。
 
@@ -87,14 +113,13 @@ setInterval(getRTime,1000);
 2015年12月19日，米粒从长沙回到了南京。米粒妈妈辞掉了在长沙中科院的工作，下定决心回到南京了。我要能见到亲爱的女儿了。除了高兴，也感觉到肩上的担子更重了。
 
 
+![米奇](http://oaf2qt3yk.bkt.clouddn.com/ccbfd89d275f8d58cde3386b5413add0.png)
 
 
+# 米奇时代？
+2016年8月20日发现米粒妈妈怀孕了，我给肚子里的小朋友取名米奇或米琪，就是那个漂亮的米老鼠Mickey。小米还不到一岁半。得知这个消息，我和晓青都很崩溃：怎么又这么容易？米粒妈妈和我面对一个困境：生还是不生？！他来的太突然了。
 
+我意识到这个责任只能我和晓青来抗。父母都表示不干涉，没有意见。时代真得变了。或许是因为要担责任，所以没有心绪。晓青一开始坚决不生，多次落泪。我们去市妇幼做了检查，上网搜索了一些细节。人工流产对子宫是不小的伤害，要越早越好，最好在50-55天的范围内。
 
-
-
-
-
-
-
-
+想到这个还没有成形的小人的命运，晓青又转念想生下来。因为如果我们想要二胎，那么晚不如早。但是做出这个决定并不容易，因为：一、生下ta将是艰苦时代的到来，米粒一个本来就够缠人的了，再来一个将会耗费很多时间。十月怀胎，十月养育。朝夕陪伴，十分辛苦。
+；二、米粒妈妈的工作就毁了，又要耗费大半年时间在孩子身上。三、不确定性，不知道是男孩还是女孩。二胎政策只能生两个。如果想要一个男孩，那么就只有这一次机会了。于是乎变得很纠结。清宫图说女孩；金钱卦是一个夬卦，据说是男孩。抛硬币三局两胜说生。做判断和做决定是两回事，做判断可能挺好；但到了自己做决定，一样会选错误的决定。
