@@ -76,17 +76,15 @@ img {
 }
 
 span.centerImage {
-     text-align: center;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 #map_canvas img,
 .google-maps img {
   max-width: none;
 }
-.centerImage {
-     text-align: center;
-}
-
 
 
 button,
