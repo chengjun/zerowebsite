@@ -11,11 +11,18 @@ tags:
 
 个人简历：
 
+![近照](http://oaf2qt3yk.bkt.clouddn.com/b8f013d97c7b8b40e69ea94d1029855a.png)
 
+王成军，博士，南京大学新闻传播学院助理研究员。奥美数据科学实验室主任、计算传播学实验中心研究员、香港城市大学互联网数据挖掘实验室研究员、集智俱乐部核心成员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》（2015）。致力于采用计算社会科学视角研究人类传播行为，其研究成果发表于SSCI/SCI期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology和Journal of Social and Personal Relationships。
 
-王成军，博士，南京大学新闻传播学院助理研究员。奥美数据科学实验室主任、计算传播学实验中心研究员、香港城市大学互联网数据挖掘实验室研究员、集智俱乐部核心成员。参与翻译《社会网络分析：方法与实践》(2013)、合著《社交网络上的计算传播学》（2015）。致力于采用计算社会科学地研究人类传播行为，其研究成果发表于SSCI/SCI期刊，例如Scientific Reports、PloS ONE、Physica A、Cyberpsychology和Journal of Social and Personal Relationships。
+* 计算传播网（http://computational-communication.com）。
+* 计算传播学实验中心（http://ccc.nju.edu.cn:8089)
 
-王成军，南京大学新闻传播学院助理研究员。2014年毕业于香港城市大学，获传播学博士学位。2014年6月创建计算传播网（http://computational-communication.com）。2014年9月加入南京大学新闻传播学院，任奥美数据科学实验室主任、计算传播学实验中心研究员（http://ccc.nju.edu.cn:8089),兼任香港城市大学互联网数据挖掘实验室研究员、集智俱乐部科学委员会成员。曾参与翻译《社会网络分析：方法与实践》(2013)，合著《社交网络上的计算传播学》于2015年6月出版。对数据科学感兴趣，主要采用python和R编程，写了一个R包networkdiffusion（https://github.com/chengjun/networkdiffusion）和两个python包：iching (https://pypi.python.org/pypi/iching)和scholarNetwork (https://pypi.python.org/pypi/scholarNetwork/)。
+对数据科学感兴趣，主要采用python和R编程，写了一个R包和两个python包：
+
+* networkdiffusion（https://github.com/chengjun/networkdiffusion）
+* iching (https://pypi.python.org/pypi/iching)
+* scholarNetwork (https://pypi.python.org/pypi/scholarNetwork/)
 
 研究领域：计算传播学，致力于采用计算社会科学地研究方法分析人类传播行为，具体包括社会化媒体与信息扩散、公共讨论、注意力流动、互联网数据挖掘等。
 
