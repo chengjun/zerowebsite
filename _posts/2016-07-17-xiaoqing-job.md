@@ -12,7 +12,6 @@ tags:
 
 
 - 南京林业大学人事处 | 生物与环境学院生态学方向 [链接](http://zhaopin.njfu.edu.cn/class_type.asp?cpid=151)
-
    - 南京林业大学 "林学院" 农业资源与环境岗位，农业资源利用(土壤学、植物营养学)专业、"025-85427303 ycxi@njfu.edu.cn"
 
 - 南京大学金陵学院人事处 [链接](http://rsc.jlxy.nju.edu.cn/list.aspx?t=recruit&id=jobs)
