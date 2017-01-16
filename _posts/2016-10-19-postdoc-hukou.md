@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "2016年总结"
+title: "博士后办理落户"
 comments: true
 categories:
 - 青椒村
@@ -8,9 +8,8 @@ tags:
 - 一个狗
 ---
 
-## lambert图书出版
 
-最终放弃了lambert的出版计划，主要是它们实质是一个骗子公司，并不对书籍进行任何有价值的编辑工作。
+
 
 ## 博士后办理落户
 
