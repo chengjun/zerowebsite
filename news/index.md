@@ -1,6 +1,4 @@
 
-# Cheng-Jun Wang
-
 I am an **Assistant Research Fellow** in the [School of Journalism & Communication at the Nanjing University](http://jc.nju.edu.cn/index.php). I received my PhD in Communication from City University of Hong Kong, where I was also a research member in the **[Web Mining Lab](weblab.com.cityu.edu.hk)**. My primary areas of research include informaiton diffusion, social movement, and attention networks.
 
 [Email](wangchengjun@nju.educn) | [Twitter](https://twitter.com/ChengJunWang) | [Github](http://github.com/chengjun) | [ResearchGate](https://www.researchgate.net/profile/Cheng_Jun_Wang)  | [CV](http://chengjun.github.io/cv/) | [Address »](http://j.map.baidu.com/3hx5j)
@@ -20,12 +18,10 @@ I am an **Assistant Research Fellow** in the [School of Journalism & Communicati
   - Scientific Reports, 2016. Accepted.
   - Co-authored with Lingfei Wu, Jiang Zhang, and Marco Janssen.
   - [Link](http://www.nature.com/articles/srep34059) | Expand abstract »
-
 * Tracing the Attention of Moving Citizens
   - Scientific Reports, 2016. Accepted.
   - Co-authored with Lingfei Wu
   - [Link](http://www.nature.com/articles/srep33103) | Online appendix | Expand abstract »
-
 * The Scaling of Attention Networks
   - Physica A: Statistical Mechanics and its Applications, 2015, 12 (081).
   - Co-authored with Lingfei Wu
