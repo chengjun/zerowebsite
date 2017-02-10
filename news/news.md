@@ -1,3 +1,4 @@
+# Cheng-Jun Wang
 
 I am an **Assistant Research Fellow** in the [School of Journalism & Communication at the Nanjing University](http://jc.nju.edu.cn/index.php). I received my PhD in Communication from City University of Hong Kong, where I was also a research member in the **[Web Mining Lab](weblab.com.cityu.edu.hk)**. My primary areas of research include informaiton diffusion, social movement, and attention networks.
 
